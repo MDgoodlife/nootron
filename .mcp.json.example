@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "notion-mcp": {
+      "command": "mcp notion-mcp",
+      "args": [],
+      "env": {
+        "NOTION_API_TOKEN": "PLACEHOLDER"
+      }
+    },
+    "github": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "PLACEHOLDER"
+      }
+    }
+  }
+}
